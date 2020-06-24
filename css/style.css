@@ -1,0 +1,164 @@
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;    
+    background: #000;
+    color: #999;
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Italiana', 'Courier New', Courier, monospace;
+    margin-top: 0;
+}
+
+a{
+    color: #fff;  
+}
+
+ul{
+    list-style: none;
+}
+
+#main{
+    display: block;
+    text-align: center;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#intro{
+    font-size: 200%;
+    margin-top: 20vh;
+    height: 40vh;
+    margin-bottom: 30vh;
+    transition: 300ms;
+}
+
+#intro:hover{
+    color: #fff;
+}
+
+#intro h1{
+    margin-top: 0;
+    font-size: 400%;
+}
+
+#navbar{
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+#navbar div{
+    text-align: center;
+    border: 0;
+    margin: 0 auto;
+    display: inline-block;
+    width: 32%;  
+}
+
+#navbar div i{
+    transition: 300ms;
+}
+
+#navbar div i:hover{
+    color: #fff;
+    transform: scale(1.1);
+}
+
+#tabs{
+    width: 60%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: 'Libre Caslon Display', 'Courier New', Courier, monospace;
+    font-size: 200%;
+    padding: 10vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.tab{
+    display: none;
+}
+
+#tab-1-content{
+    display: inline-block;
+}
+
+.tab div{
+    transition: 300ms;
+}
+
+.tab div:hover{
+    color: #fff;
+}
+
+#tab-3-content div i{
+    transition: 0.3s;
+} 
+
+#tab-3-content div i:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#social{
+    width: 60%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#social div{
+    text-align: center;
+    border: 0;
+    margin: 0;
+    display: inline-block;
+    width: 32%;
+}
+
+#social div a{
+    color: #999;
+    transition: 0.3s;
+}
+
+#social div i{
+    transition: 0.3s;
+}
+
+#social div i:hover{
+    color: #fff;
+    transform: scale(1.2);
+}
+
+@media(max-width: 770px){
+    #intro{
+        font-size: 150%;
+    }
+}
+
+@media(max-width: 550px){
+    #intro{
+        font-size: 140%;
+    }
+
+    .tab{
+        font-size: 70%;
+    }
+
+    #social{
+        width: 100%;
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #social div{
+        width: 32%;
+    }
+}
